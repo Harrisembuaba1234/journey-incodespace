@@ -237,8 +237,7 @@ Map<String, dynamic> decodeToken(String token) {
           scenarios, much like optimizing backend latencies in case studies. Key
           takeaway: Growth comes from embracing challenges and applying
           structured solutions. If you're starting a similar project, focus on
-          architecture early— it pays off. What's your dev journey like? Share
-          in the comments!
+          architecture early— it pays off.
         </p>
       </div>
     </div>
