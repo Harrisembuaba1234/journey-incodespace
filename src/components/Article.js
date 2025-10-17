@@ -1,7 +1,7 @@
 import React from "react";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
-import harrisAvatar from "./assets/images/harris.jpg";
+
 
 const Article = () => {
   return (
@@ -12,7 +12,7 @@ const Article = () => {
         </h1>
         <div className="article-meta">
           <img
-            src={harrisAvatar}
+            src="/assets/images/harris.jpg"
             alt="Harris Avatar"
             style={{ width: "24px", height: "24px", borderRadius: "50%", marginRight: "8px", verticalAlign: "middle" }}
           />
