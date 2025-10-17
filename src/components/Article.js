@@ -1,6 +1,7 @@
 import React from "react";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
+import harrisAvatar from "./assets/images/harris.jpg";
 
 const Article = () => {
   return (
@@ -10,6 +11,11 @@ const Article = () => {
           My Growth Journey as a Mobile Developer – Building a Time Tracking App
         </h1>
         <div className="article-meta">
+          <img
+            src={harrisAvatar}
+            alt="Harris Avatar"
+            style={{ width: "24px", height: "24px", borderRadius: "50%", marginRight: "8px", verticalAlign: "middle" }}
+          />
           <span>By Harris</span> | <span>October 6, 2025</span> |{" "}
           <span>7 min read</span>
         </div>
